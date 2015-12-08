@@ -1,0 +1,2 @@
+﻿  test.cpp
+c:\users\user\documents\visual studio 2013\projects\project2\project2\test.h(4): error C2504: 'CTest' : 기본 클래스를 정의하지 않았습니다.

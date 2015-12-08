@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\AutoRender.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\AutoRenderBink.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BinaryImage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BoundsTrack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BufferObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Cinematic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Font.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\GLMatrix.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\GuiModel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Image_files.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Image_intrinsic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Image_load.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Image_process.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Image_program.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ImageManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Interaction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Material.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_ase.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_beam.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_liquid.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_lwo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_ma.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_md3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_md5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_prt.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_sprite.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ModelDecal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ModelManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ModelOverlay.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderEntity.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderLog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderProgs.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderProgs_GLSL.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderSystem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderSystem_init.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld_defs.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld_demo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld_load.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld_portals.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ResolutionScale.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ScreenRect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_backend_draw.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_backend_rendertools.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_frontend_addlights.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_frontend_addmodels.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_frontend_deform.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_frontend_guisurf.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_frontend_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_frontend_subview.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_trace.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_trisurf.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\VertexCache.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\AutoRender.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\AutoRenderBink.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BinaryImage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BinaryImageData.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BoundsTrack.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BufferObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Cinematic.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Font.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\GLMatrix.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\GLState.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\GraphicsAPIWrapper.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\GuiModel.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ImageOpts.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Interaction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Material.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_ase.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_local.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_lwo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_ma.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_md3.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ModelDecal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ModelManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ModelOverlay.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderContext.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderLog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderProgs.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderSystem.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderTexture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld_local.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ResolutionScale.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ScreenRect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\simplex.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_local.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\VertexCache.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

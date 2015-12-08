@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD5BEFA1-1D6B-458C-BFD4-5E6FE7258450}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\AutoRender.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\AutoRenderBink.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BinaryImage.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BoundsTrack.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BufferObject.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Cinematic.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Font.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\GLMatrix.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\GuiModel.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ImageManager.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Image_files.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Image_intrinsic.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Image_load.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Image_process.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Image_program.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Interaction.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Material.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ModelDecal.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ModelManager.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ModelOverlay.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_ase.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_beam.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_liquid.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_lwo.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_ma.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_md3.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_md5.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_prt.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_sprite.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderEntity.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderLog.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderProgs.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderProgs_GLSL.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderSystem.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderSystem_init.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld_defs.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld_demo.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld_load.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld_portals.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ResolutionScale.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ScreenRect.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_backend_draw.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_backend_rendertools.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_frontend_addlights.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_frontend_addmodels.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_frontend_deform.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_frontend_guisurf.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_frontend_main.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_frontend_subview.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_trace.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_trisurf.cpp" />
+    <ClCompile Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\VertexCache.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\AutoRender.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\AutoRenderBink.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BinaryImage.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BinaryImageData.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BoundsTrack.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\BufferObject.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Cinematic.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Font.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\GLMatrix.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\GLState.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\GraphicsAPIWrapper.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\GuiModel.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Image.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ImageOpts.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Interaction.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Material.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ModelDecal.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ModelManager.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ModelOverlay.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_ase.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_local.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_lwo.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_ma.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\Model_md3.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderContext.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderLog.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderProgs.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderSystem.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderTexture.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\RenderWorld_local.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ResolutionScale.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\ScreenRect.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\simplex.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\tr_local.h" />
+    <ClInclude Include="..\..\..\..\RBDOOM-3-BFG-master\neo\renderer\VertexCache.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
